@@ -1,3 +1,5 @@
+console.log("Game loaded");
+
 const GAME_MAP_OLD = [
     "         EeEDdDCcCBbBAaA          ",
     "X                                 ",
@@ -183,6 +185,7 @@ class Player {
         this.isRunning = false;
         this.isTurning = false;
         this.turnDirection = "";
+        console.log("Player", this.x, this.z);
 
     }
 
